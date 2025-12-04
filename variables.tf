@@ -6,7 +6,9 @@
 # prompted to enter it (or define it via config file or command line flags.)
 
 # TFC Workspace ID for inventory naming
-variable "TFC_WORKSPACE_ID" {}
+variable "TFC_WORKSPACE_ID" {
+  default = "terraform-workshop-mkeus"
+}
 
 variable "organization_name" {
   description = "The organization in AAP and HCP Terraform"
